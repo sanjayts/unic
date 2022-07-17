@@ -1,5 +1,5 @@
-# wcr (wc in Rust)
-wc implemented in Rust as part of reading command line rust book. This repo uses the latest version of clap which has
+# unic (uniq implemented in Rust)
+uniq implemented in Rust as part of reading "Command line rust" book. This repo uses the latest version of clap which has
 quite a different API compared to the API used in the book.
 
 This program supports the following capabilities:
@@ -25,7 +25,6 @@ OPTIONS:
 
 * One of the main challenge was tackling whitespace 
 
-
 # TODO
 
 * Add support for `-d` or `--repeated`
@@ -35,3 +34,4 @@ OPTIONS:
 # Reference
 
 * https://www.freebsd.org/cgi/man.cgi?query=uniq
+* 
